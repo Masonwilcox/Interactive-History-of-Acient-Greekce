@@ -560,7 +560,7 @@ li{
 /* End Minoan History Section */
 
 /*  Mycenaean History Section */
-.AMYH{
+#AMYH {
 	min-height: 100vh;
 	width: 100%;
 	padding: 0%;
@@ -580,7 +580,7 @@ li{
 		height: 100%;
 		width: 100%;
 		background-color: black;
-		opacity: 0.7;
+		opacity: 0.2;
 		z-index: -1;
 	}
 	.AMYH-title {
@@ -592,12 +592,17 @@ li{
 		text-transform: uppercase;
 		letter-spacing: 0.2rem;
 		text-align: center;
-		bottom: 730px;
+		top: 80px;
 		right: 500px;
-		z-index: -1;
+		z-index: 2;
 	}
 	.AMYH-title span {
-		color: brown;
+		color: #83B8D0;
+	}
+	.AMYH-title{
+		display: inline-block;
+		background-color: white;
+		opacity: 0.7;
 	}
 	.AMYH-title2 {
 		position: absolute;
@@ -608,14 +613,19 @@ li{
 		text-transform: uppercase;
 		letter-spacing: 0.2rem;
 		text-align: center;
-		bottom: 680px;
-		right: 560px;
-		z-index: -1;
+		top: 127.78px;
+		right: 570px;
+		z-index: 2;
 	}
 	.AMYH-title2 span {
-		color: brown;
+		color: #83B8D0;
 	}
-	#AMYH .AMYH {
+	.AMYH-title2{
+		display: inline-block;
+		background-color: white;
+		opacity: 0.7;
+	}
+	#AMH .AMH {
 		margin: 0 auto;
 		padding: 0 50px;
 		justify-content: flex-start;
@@ -625,7 +635,7 @@ li{
 		width: fit-content;
 		font-size: 4rem;
 		position: relative;
-		color: white;
+		color: black;
 		animation: text_reveal 0.5s ease forwards;
 		animation-delay: 1s;
 	}
@@ -646,10 +656,10 @@ li{
 	}
 	#AMYH .contact-item {
 		position: absolute;
-		top: 54.5%;
-		left: 58.5%;
+		top: 56%;
+		left: 57%;
 		margin-right: -20%;
-		opacity: 0;
+		opacity: 0.1;
 		z-index: 1;
 		transform: translate(-50%, -50%)
 	
@@ -661,57 +671,41 @@ li{
 	
 	#AMYH .cta{
 		position: relative;
-		top: 10%;
+		top: 30%;
 		left: 85%;
 	}
-	
-	#AMYH .contact2 {
-		position: absolute;
-		display: inline;
-		margin-top: 100px;
-		flex-direction: column;
-		max-width: 1200px;
-		margin: 0 auto;
-		width: 100%;
-		border: 3px red;
-	
+
+	#AMYH .Timeline-container{
+		display: inline-block;
+		padding: 1.4% 1.8%;
+		width: 300px;
+		margin-top: 15%;
+		margin-left: 3%;
+		color: White;
+		background-color: white;
+		opacity: 0.7;
+		z-index: 3;
 	}
-	#AMYH .contact-items2 {
-		/* max-width: 400px; */
-		width: 100%;
-	}
-	#AMYH .contact-item2 {
-		position: absolute;
-	
-		top: 24%;
-		left: 28%;
-		margin-right: -20%;
-		word-wrap: normal; 
-		z-index: 1;
-		transform: translate(-50%, -50%)
-	
-	}
-	
-	#AMYH .contact-item2:hover {
-		opacity: 1;
-	}
-	
-	#AMYH h3 {
-		color: white;
-		
-		font-size: 1.7rem;
-		margin-top: 5px;
-		line-height: 2rem;
-		font-weight: 300;
+	#AMYH h5 {
+		color: crimson;
+		font-size: 2rem;
 		letter-spacing: 0.1rem;
+		margin-top: 15px;
+		opacity: 1;
+		transition: 0.5s ease;
+		transition-property: background-color, color;
+		z-index: 2;
 	}
-		.brand h3 {
-		font-size: 3rem;
-		text-transform: uppercase;
-		color: crimson;
-		}
-	#AMYH .brand h3 span {
-		color: crimson;
+	#AMYH p {
+		color: White;
+		font-size: 1.4rem;
+		letter-spacing: 0.01rem;
+		line-height: 1.5rem;
+		margin-top: 5px;
+		opacity: 1;
+		transition: 0.5s ease;
+		transition-property: background-color, color;
+		z-index: 2;
 	}
 	/* End Mycenaean History Section */
 
