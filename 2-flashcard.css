@@ -59,7 +59,7 @@ body {
   text-align: center;
   word-break: break-all;
   padding: 20px;
-  font-size: 2vw;
+  font-size: 2vh;
   border-radius: 10px;
   backface-visibility: hidden;
 }
