@@ -23,7 +23,7 @@
           <li><a href="index.html#Map" data-after="Home">Home</a></li>
           <li><a href="index.html#PGreeks" data-after="PGreeks">Pre-Greeks </a></li>
           <li><a href="index.html#Archaic" data-after="Archaic">Archaic </a></li>
-          <li><a href="index.html#Clasic" data-after="Clasic">Classic </a></li>
+          <li><a href="index.html#Classic" data-after="Classic">Classic </a></li>
           <li><a href="index.html#Hellenic" data-after="Hellenic">Hellenic </a></li>
         </ul>
       </div>
@@ -84,3 +84,37 @@
   </section>
   <!-- End AAH Section  -->
 </html>
+
+
+function getCursorPosition(event) {
+
+  document.getElementById("c_p_x").textContent = event.screnX;
+  
+  document.getElementById("c_p_y").textContent = event.clientY;
+  
+  }
+  <div>
+
+
+    <style>#div1 { height: 100vh; width:100%;
+    
+    border: 1px solid #444;
+    
+    }</style>
+   
+    <div id="div1" onmousemove="getCursorPosition(event)">
+    
+    </div>
+    
+    <div>X Mouse position: <span id="c_p_x"></span>.
+    
+    </div>
+    
+    <div>Y Mouse position: <span id="c_p_y"></span>.
+    
+    </div>
+    
+    <script src="test.js"></script>
+  </div>
+
+
