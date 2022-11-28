@@ -1397,11 +1397,11 @@ li{
 		background-color:  crimson;
 	}
 	
-	#Classic .HGreececontainer {
+	#Classic .HImageReccontainer {
 		/* max-width: 400px; */
 		width: 100%;
 	}
-	#Classic .HGreececontainer {
+	#Classic .HImageReccontainer {
 		position: absolute;
 		top: 60%;
 		left:82.5%;
@@ -1411,7 +1411,7 @@ li{
 		transform: translate(-50%, -50%)
 
 	}
-	#Classic .HGreececontainer:hover {
+	#Classic .HImageReccontainer:hover {
 		opacity: 1;
 	}
 	#Classic .cta2 {
@@ -1494,11 +1494,11 @@ li{
 		transform: translate(-50%, -50%)
 
 	}
-	#Classic .HLRcontainer {
+	#Classic .CLocationReccontainer {
 		/* max-width: 400px; */
 		width: 100%;
 	}
-	#Classic .HLRcontainer {
+	#Classic .CLocationReccontainer {
 		position: absolute;
 		top: 75%;
 		left: 80%;
@@ -1508,7 +1508,7 @@ li{
 		transform: translate(-50%, -50%)
 
 	}
-	#Classic .HLRcontainer:hover {
+	#Classic .CLocationReccontainer:hover {
 		opacity: 1;
 	}
 	#Classic .cta4 {
@@ -1532,34 +1532,32 @@ li{
 /* End Classic Section */
 
 /* Classic Greec History Section */
-#CGH {
-	min-height: 100vh;
-	width: 100%;
-	padding: 0%;
-	background-image:  url(./img/partenon-em-atenas.png);
+body {
+	background-color:  #FFE194;
+	}
+	
+#CIR {
 	background-size: cover;
+	background-color: #00A693;
 	background-position: center center;
 	background-attachment: fixed;
 	position: relative;
 	z-index: 1;
 }
-	
-	#CGH::after {
-		content: '';
-		position: absolute;
-		left: 0;
-		top: 0;
-		height: 100%;
-		width: 100%;
-		background-color: black;
-		opacity: 0.2;
-		z-index: -1;
-	}
-	.CGH-title {
+#CIR::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-color: black;
+	opacity: 0.3;
+	z-index: -1;
+}
+	.CIR-title {
 		position: absolute;
 		font-size: 40px;
 		font-weight: 40px;
-		color: black;
+		color: White;
 		width: fit-content;
 		text-transform: uppercase;
 		letter-spacing: 0.2rem;
@@ -1568,19 +1566,24 @@ li{
 		right: 500px;
 		z-index: 2;
 	}
-	.CGH-title span {
-		color: #83B8D0;
+	.CNEH-title span {
+		color: crimson;
 	}
-	.CGH-title{
+	.CIR-titl{
 		display: inline-block;
-		background-color: white;
+		background-color: black;
 		opacity: 0.7;
 	}
-	.CGH-title2 {
+	.CIR-title{
+		display: inline-block;
+		background-color: black;
+		opacity: 0.7;
+	}
+	.CIR-title2 {
 		position: absolute;
 		font-size: 40px;
 		font-weight: 40px;
-		color: black;
+		color: white;
 		width: fit-content;
 		text-transform: uppercase;
 		letter-spacing: 0.2rem;
@@ -1589,20 +1592,41 @@ li{
 		right: 610px;
 		z-index: 2;
 	}
-	.CGH-title2 span {
-		color: #83B8D0;
+	.CIR-title2 span {
+		color: crimson;
 	}
-	.CGH-title2{
+	.CIR-title2{
 		display: inline-block;
-		background-color: white;
+		background-color: black;
 		opacity: 0.7;
 	}
-	#CGH .CGH {
+	.CIR-title3 {
+		position: absolute;
+		font-size: 40px;
+		font-weight: 40px;
+		color: white;
+		width: fit-content;
+		text-transform: uppercase;
+		letter-spacing: 0.2rem;
+		text-align: center;
+		top: 175.56px;
+		right: 520px;
+		z-index: 2;
+	}
+	.CIR-title3 span {
+		color: crimson;
+	}
+	.CIR-title3{
+		display: inline-block;
+		background-color: black;
+		opacity: 0.7;
+	}
+	#CIR .CIR {
 		margin: 0 auto;
 		padding: 0 50px;
 		justify-content: flex-start;
 	}
-	#CGH h1 {
+	#CIR h1 {
 		display: block;
 		width: fit-content;
 		font-size: 4rem;
@@ -1612,7 +1636,7 @@ li{
 		animation-delay: 1s;
 	}
 	
-	#CGH .contact {
+	#CIR .contact {
 		position: absolute;
 		display: inline;
 		margin-top: 100px;
@@ -1622,11 +1646,11 @@ li{
 		width: 100%;
 	
 	}
-	#CGH .contact-items {
+	#CIR .contact-items {
 		/* max-width: 400px; */
 		width: 100%;
 	}
-	#CGH .contact-item {
+	#CIR .contact-item {
 		position: absolute;
 		top: 30%;
 		left: 20%;
@@ -1637,28 +1661,18 @@ li{
 	
 	}
 	
-	#CGH .contact-item:hover {
+	#CIR .contact-item:hover {
 		opacity: 0.9;
 	}
 	
-	#CGH .cta{
+	#CIR .cta{
 		position: relative;
 		top: 30%;
 		left: 85%;
 	}
 
-	#CGH .Timeline-container{
-		display: inline-block;
-		padding: 1.4% 1.8%;
-		width: 500px;
-		margin-top: 15%;
-		margin-left: 32%;
-		color: White;
-		background-color: black;
-		opacity: 0.7;
-		z-index: 2;
-	}
-	#CGH h5 {
+
+	#CIR h5 {
 		color: White;
 		font-size: 2rem;
 		letter-spacing: 0.1rem;
@@ -1666,9 +1680,8 @@ li{
 		opacity: 1;
 		transition: 0.5s ease;
 		transition-property: background-color, color;
-		z-index: 2;
 	}
-	#CGH p {
+	#CIR p {
 		color: White;
 		font-size: 1.4rem;
 		letter-spacing: 0.01rem;
@@ -1677,10 +1690,211 @@ li{
 		opacity: 1;
 		transition: 0.5s ease;
 		transition-property: background-color, color;
-		z-index: 2;
 	}
-
+	 .Cimages{
+		position: absolute;
+		display: inline-block;
+		width: 53vw;
+		margin-top: 17%;
+		margin-left: 25vw;
+		color: White;
+		background-color: black;
+		z-index: -1;
+	}
 	/* End Classic Greece History Section */
+
+
+
+	/*  Classic Location Recongnition Section */
+	#CLR {
+		min-height: 100vh;
+		width: 100%;
+		padding: 0%;
+		background-size: cover;
+		background-position: center center;
+		background-attachment: fixed;
+		position: relative;
+		z-index: 1;
+	}
+	#CLR::after {
+		content: '';
+		position: absolute;
+		left: 0;
+		top: 0;
+		height: 100%;
+		width: 100%;
+		background-color: black;
+		opacity: 0.3;
+		z-index: -1;
+	}
+		.CLR-title {
+			position: absolute;
+			font-size: 40px;
+			font-weight: 40px;
+			color: White;
+			width: fit-content;
+			text-transform: uppercase;
+			letter-spacing: 0.2rem;
+			text-align: center;
+			top: 80px;
+			right: 100px;
+			z-index: 2;
+		}
+		.CLR-title span {
+			color: crimson;
+		}
+		.CLR-title{
+			display: inline-block;
+			background-color: black;
+			opacity: 0.7;
+		}
+		.CLR-title2 {
+			position: absolute;
+			font-size: 40px;
+			font-weight: 40px;
+			color: white;
+			width: fit-content;
+			text-transform: uppercase;
+			letter-spacing: 0.2rem;
+			text-align: center;
+			top: 127.78px;
+			right: 160px;
+			z-index: 2;
+		}
+		.CLR-title2 span {
+			color: crimson;
+		}
+		.CLR-title2{
+			display: inline-block;
+			background-color: black;
+			opacity: 0.7;
+		}
+		.CLR-title3 {
+			position: absolute;
+			font-size: 40px;
+			font-weight: 40px;
+			color: white;
+			width: fit-content;
+			text-transform: uppercase;
+			letter-spacing: 0.2rem;
+			text-align: center;
+			top: 175.56px;
+			right: 125px;
+			z-index: 2;
+		}
+		.CLR-title3 span {
+			color: crimson;
+		}
+		.CLR-title3{
+			display: inline-block;
+			background-color: black;
+			opacity: 0.7;
+		}
+		.CLR-title4 {
+			position: absolute;
+			font-size: 40px;
+			font-weight: 40px;
+			color: white;
+			width: fit-content;
+			text-transform: uppercase;
+			letter-spacing: 0.2rem;
+			text-align: center;
+			top: 223.34px;
+			right: 140px;
+			z-index: 2;
+		}
+		.CLR-title4 span {
+			color: crimson;
+		}
+		.CLR-title4{
+			display: inline-block;
+			background-color: black;
+			opacity: 0.7;
+		}
+		#CLR .CLR {
+			margin: 0 auto;
+			padding: 0 50px;
+			justify-content: flex-start;
+		}
+		#CLR h1 {
+			display: block;
+			width: fit-content;
+			font-size: 4rem;
+			position: relative;
+			color: black;
+			animation: text_reveal 0.5s ease forwards;
+			animation-delay: 1s;
+		}
+		
+		#CLR .contact {
+			position: absolute;
+			display: inline;
+			margin-top: 100px;
+			flex-direction: column;
+			max-width: 1200px;
+			margin: 0 auto;
+			width: 100%;
+		
+		}
+		#CLR .contact-items {
+			/* max-width: 400px; */
+			width: 100%;
+		}
+		#CLR .contact-item {
+			position: absolute;
+			top: 30%;
+			left: 20%;
+			margin-right: -20%;
+			opacity: 0.6;
+			z-index: 1;
+			transform: translate(-50%, -50%)
+		
+		}
+		
+		#CLR .contact-item:hover {
+			opacity: 0.9;
+		}
+		
+		#CLR .cta4{
+			position: relative;
+			top: 30%;
+			left: 85%;
+		}
+	
+		#CLR .Timeline-container{
+			display: inline-block;
+			padding: 1.4% 1.8%;
+			width: 500px;
+			margin-top: 15%;
+			margin-left: 5%;
+			color: White;
+			background-color: black;
+			opacity: 0.7;
+			z-index: 2;
+		}
+		#CLR h5 {
+			color: White;
+			font-size: 2rem;
+			letter-spacing: 0.1rem;
+			margin-top: 15px;
+			opacity: 1;
+			transition: 0.5s ease;
+			transition-property: background-color, color;
+		}
+		#CLR p {
+			color: White;
+			font-size: 1.4rem;
+			letter-spacing: 0.01rem;
+			line-height: 1.5rem;
+			margin-top: 5px;
+			opacity: 1;
+			transition: 0.5s ease;
+			transition-property: background-color, color;
+		}
+
+
+	/* End Classic Location Recongnition Section */
+
 
 /* Classic Near East History Section */
 #CNEH {
@@ -1946,8 +2160,11 @@ li{
 
 	#CWMH .Timeline-container{
 		display: inline-block;
+		position: absolute;
+		overflow:scroll;
 		padding: 1.4% 1.8%;
 		width: 500px;
+		height: 400;
 		margin-top: 15%;
 		margin-left: 60%;
 		color: White;
@@ -1966,6 +2183,7 @@ li{
 		z-index: 2;
 	}
 	#CWMH p {
+		position: absolute;
 		color: White;
 		font-size: 1.4rem;
 		letter-spacing: 0.01rem;
@@ -1974,7 +2192,8 @@ li{
 		opacity: 1;
 		transition: 0.5s ease;
 		transition-property: background-color, color;
-		z-index: 2;
+
+		z-index: -1;
 	}
 	.dot {
 		height: 25px;
@@ -1997,6 +2216,9 @@ li{
  
 	  #container {
 		width: 1000px;
+	   }
+	   #iactiveImgContanie {
+		width: 100px;
 	   }
 	   
 	   #leftblock {   
